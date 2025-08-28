@@ -1,0 +1,111 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira code, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "phase",
+  "code-runner.showExecutionMessage": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Andromeda",
+
+  "workbench.colorCustomizations": {
+    "list.activeSelectionBackground": "#101a33",
+    "list.hoverBackground": "#152346",
+    "list.activeSelectionForeground": "#00e8c6",
+    "list.dropBackground": "#152346",
+    "list.focusBackground": "#282b35",
+    "list.focusForeground": "#eee",
+    "list.hoverForeground": "#eee",
+    "list.inactiveSelectionBackground": "#152346",
+    "list.inactiveSelectionForeground": "#00e8c6",
+
+    "activityBar.background": "#101a33",
+    "activityBar.dropBackground": "#3a404e",
+    "activityBar.foreground": "#fa7910",
+    "activityBarBadge.background": "#00b0ff",
+    "activityBarBadge.foreground": "#101a33",
+    "activityBar.border": "#101a33",
+
+    "sideBar.background": "#101a33",
+    "sideBarSectionHeader.background": "#101a33",
+    "sideBarTitle.foreground": "#00e8c6",
+    "sideBar.foreground": "#a8a8a8",
+    "sideBar.border": "#101a33",
+    // "editorGroup.background": "#23262E",
+    // "editorGroup.dropBackground": "#495061d7",
+    "editorGroupHeader.tabsBackground": "#101a33",
+    "tab.activeBackground": "#101a33",
+    "tab.inactiveBackground": "#101a33",
+    "tab.activeForeground": "#4514cc",
+    "tab.inactiveForeground": "#4514cc",
+    "tab.activeBorder": "#00e8c6",
+
+    "editor.background": "#101a33",
+    "editorCursor.foreground": "#fff",
+    "editorLink.activeForeground": "#3B79C7",
+    "editor.lineHighlightBackground": "#152346",
+
+    //for all widgets
+    "editorWidget.background": "#152141",
+    "editorSuggestWidget.background": "#152141",
+    "editorSuggestWidget.border": "#372F3C",
+    "editorSuggestWidget.selectedBackground": "#1b285e",
+    "editorHoverWidget.background": "#1b285e",
+    "editorHoverWidget.border": "#00e8c5cc",
+    "debugExceptionWidget.background": "#152141",
+    "debugExceptionWidget.border": "#FF9F2E60",
+
+    "panel.background": "#101a33",
+    "panel.border": "#1B1D23",
+    "panelTitle.activeBorder": "#23262E",
+    "panelTitle.inactiveForeground": "#746f77",
+
+    //bottom bar (UTF-8, Spaces-2)
+    "statusBar.background": "#101a33",
+
+    //top bar (file, edit, selection)
+    "titleBar.activeBackground": "#101a33",
+
+    "notification.background": "#2d313b",
+    "notification.buttonBackground": "#00e8c5cc",
+    "notification.buttonHoverBackground": "#07d4b5b0",
+    "notification.infoBackground": "#00b0ff",
+    "notification.warningBackground": "#FF9F2E",
+    "notification.errorBackground": "#FC644D"
+
+    // "extensionButton.prominentBackground": "#0b3c7ccc",
+    // 			"extensionButton.prominentHoverBackground": "#07d4b5b0",
+
+    // 			"pickerGroup.border": "#4F4355",
+    // 			"pickerGroup.foreground": "#746f77",
+
+    // 			"debugToolBar.background": "#20232A",
+
+    // 			"walkThrough.embeddedEditorBackground": "#23262E",
+
+    // 			"gitDecoration.ignoredResourceForeground": "#555555"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "git.autoRepositoryDetection": true,
+  "files.autoSave": "afterDelay",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.overtypeCursorStyle": "line"
+}
+
+// custom color = dark blue-101a33,
