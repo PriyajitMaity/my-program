@@ -1,12 +1,12 @@
-const debounce =(func, delay =500) =>{
-    let timer;
+const debounce =(func, delay) =>{
+    let timer;      // this will hold the timer ID
     return (...args) =>{
-        clearTimeout(timer);
+        clearTimeout(timer);  // clear fi there is any time present
         timer =setTimeout(() => {
-            func.apply(this,args);
+            func.apply(this,args);  //execute the original function after the delay
         }, delay);
     }
 }
-const callFunc =(input) =>console.log(input);
-const callApi =debounce(() =>callFunc('Api Calling....'), 2000);
+const callFunc =(input) =>console.log(input); //  this is the function where we can our API
+const callApi =debounce(() =>callFunc('Api Calling....'), 2000);  // debounce for 2 sec
 callApi();
